@@ -11,10 +11,10 @@ from plot import Plot                  # Plot
 
 def train():
     # Step1: Set hyper parameters
-    max_epoch = 10000
+    max_epoch = 1000000
     batch_size = 30
     hidden_size = 10
-    learning_rate = 1.0
+    learning_rate = 0.1
 
     # Step2: Load dataset & Model & Optimizer & Plotter
     x, t = spiral.load_data()
